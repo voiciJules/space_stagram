@@ -84,7 +84,7 @@ describe
    - 테스트 코드에 맞는 실제 코드 작성
    - 테스트 실행 => 성공
 
-###### Responsive Web
+###### How to make a Responsive Web
 
 1. Media Query
 
@@ -97,6 +97,10 @@ describe
 3. viewport
    - <meta name="viewport" content="width=device-width, initial-scale=1.0">
    - width: 100vw or height:100vh
+
+###### How to use GIF files in markdown file
+
+- https://a-curious.tistory.com/157
 
 ###### Make this application available when accessing the website through a browser
 
@@ -208,6 +212,11 @@ After npx create-react app, we can see the react webpage with the website addres
 
 - css
   - flex reference https://studiomeal.com/archives/197
+  - added `cursor:pointer` everywhere you can click
+  - make heart animation(when you click the empty heart, red heart pulse)
+  - when hover buttons, the size is shrinked and the background color is a bit thicken
+  - datepicker input focus
+  - changed window image and name
 
 ###### ERROR 1
 
@@ -361,11 +370,12 @@ const linkHandler = (e) => {
 - ~~Create shareable links for each image~~ Done
 - ~~When clicking the link image, copy the url and alert it~~ => Done => <span style="color: blue">Make it prettier</span>
 - ~~Make a 'like'(heart?) button~~ => Done
-- ~~Animate the “like” action (a heart?)~~ => Done => <span style="color: blue">Make it prettier</span>
+- ~~Animate the “like” action (a heart?)~~ => Done
 - ~~Save likes by using 'localStorage' when the user leaves or reloads the page~~ => Done
 - ~~Add a start date-picker and an end date-picker to be able to browse photos between 2 dates.~~ => Done
 - ~~Add a loading state while we wait for NASA’s API to return data~~ => Done => <span style="color: blue">Make it prettier</span>
 - ~~Make responsive website~~
-- Make test
 - ~~When image is 'video', it's not showing in the image html. Fix this problem(2019-10-21 or 2024-01-06)~~
 - Make it available on the web
+- Make test
+- Make `README.md` with demo(including GIF files)

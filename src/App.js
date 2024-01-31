@@ -106,6 +106,11 @@ function App() {
     setIsLoading(true);
     localStorage.clear();
     getDefaultImages();
+
+    setStartDate("");
+    setEndDate("");
+    setStartDateStr("");
+    setEndDateStr("");
   };
 
   localStorage.setItem("images", JSON.stringify(images));
@@ -123,34 +128,35 @@ function App() {
   return (
     <div id="wrapper">
       <div id="container">
-        <div id="title-wrapper">
-          <h2>spaceStagram</h2>
-          <h4>Brought to you by NASA's Astronomy Photo of the Day</h4>
-        </div>
-
-        <div id="date-wrapper">
-          <div>
-            <label htmlFor="start-date">start date</label>
-            <br />
-            <DatePicker
-              selected={startDate}
-              onChange={startDateHander}
-              dateFormat="yyyy-MM-dd"
-            />
+        <div id="title-date-button-wrapper">
+          <div id="title-wrapper">
+            <h2 onClick={randomButtonHandler}>spaceStagram</h2>
+            <h4>Brought to you by NASA's Astronomy Photo of the Day</h4>
           </div>
-          <div>
-            <label htmlFor="end-date">end date</label>
-            <br />
-            <DatePicker
-              selected={endDate}
-              onChange={endDateHander}
-              dateFormat="yyyy-MM-dd"
-            />
+          <div id="date-wrapper">
+            <div>
+              <label htmlFor="start-date">start date</label>
+              <br />
+              <DatePicker
+                selected={startDate}
+                onChange={startDateHander}
+                dateFormat="yyyy-MM-dd"
+              />
+            </div>
+            <div>
+              <label htmlFor="end-date">end date</label>
+              <br />
+              <DatePicker
+                selected={endDate}
+                onChange={endDateHander}
+                dateFormat="yyyy-MM-dd"
+              />
+            </div>
           </div>
-        </div>
-        <div id="button-wrapper">
-          <button onClick={submitButtonHandler}>submit</button>
-          <button onClick={randomButtonHandler}>random</button>
+          <div id="button-wrapper">
+            <button onClick={submitButtonHandler}>submit</button>
+            <button onClick={randomButtonHandler}>random</button>
+          </div>
         </div>
 
         <div id="image-content-wrapper">

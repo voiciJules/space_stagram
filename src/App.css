@@ -16,9 +16,14 @@ Image bg color :#F6F6F7 */
   margin-top: 5%;
 }
 
+#title-date-button-wrapper {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
 #title-wrapper h2 {
   font-size: 1.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-weight: 450;
   cursor: pointer;
   width: 100%;
@@ -26,7 +31,7 @@ Image bg color :#F6F6F7 */
 
 #title-wrapper h4 {
   color: #a0a3a6;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-weight: 400;
   font-size: 0.8rem;
   width: 100%;
@@ -37,9 +42,10 @@ Image bg color :#F6F6F7 */
 }
 
 #date-wrapper input {
-  width: 100px;
+  width: 90px;
   height: 20px;
-  margin-bottom: 10px;
+  /* cursor: pointer; */
+  text-align: center;
   border-radius: 7px;
   border: 1px solid #a0a3a6;
 }
@@ -48,9 +54,11 @@ Image bg color :#F6F6F7 */
   width: 60px;
   height: 20px;
   margin-bottom: 10px;
+  margin-top: 15px;
   border-radius: 5px;
   border: 1px solid #a0a3a6;
   font-size: 0.8em;
+  cursor: pointer;
 }
 
 .main-image {
@@ -96,7 +104,43 @@ iframe {
 #heart,
 #emptyHeart,
 #link {
-  width: 30px;
+  width: 35px;
+  cursor: pointer;
+}
+
+#heart {
+  animation: pulse 0.2s;
+  animation-iteration-count: 1;
+}
+
+#button-wrapper:first-child {
+  margin-right: 5px;
+}
+
+button:hover {
+  transform: scale(0.95);
+  background-color: #e0e2e4;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 13px 27px -5px rgba(126, 126, 180, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+@keyframes pulse {
+  0% {
+    width: 35px;
+    height: 35px;
+  }
+  70% {
+    width: 45px;
+    height: 45px;
+  }
+  100% {
+    width: 35px;
+    height: 35px;
+  }
 }
 
 /* ================ */
@@ -127,12 +171,6 @@ iframe {
   #wrapper {
     width: 100%;
     font-size: 0.8rem;
-  }
-
-  #date-wrapper,
-  #title-wrapper,
-  #button-wrapper {
-    margin-left: 20px;
   }
 
   #button-wrapper button {
