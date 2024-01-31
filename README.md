@@ -42,27 +42,35 @@ Below are gif demos of my project to show the above technical requirements.
 #### 1. Initial State
 
 When I first access to this website, it shows 5 random space's images. Here is what I used query parameter `count=5`. Each image result lists a title, date of capture and a button to “like” that image. Each image can be “liked”, and a user is able to undo their “like”
-![1](https://github.com/voiciJules/space_stagram/assets/80487550/dd92eccd-cf92-4662-a103-3affc42f48ec)
+![1](https://github.com/voiciJules/space_stagram/assets/80487550/a17756ca-69b3-48af-a437-7095ce2c4ced)
 
 #### 2. Save likes if the user leaves or reloads the page
 
 By using localstorage of browser, I saved likes when the user leaves or reloads the page
+![2](https://github.com/voiciJules/space_stagram/assets/80487550/c2b40a81-da85-4948-8204-8d590d03fc2b)
 
 #### 3. Animate the “like” action
 
 By using CSS, I made a like action which The heart shape increases and returns to its original size.
-(This demo is included to the number 2.)
+(This demo is included to the number 2)
 
 #### 4. Add a loading state while we wait for NASA’s API to return data
+
+![4](https://github.com/voiciJules/space_stagram/assets/80487550/e12ae063-ad23-4972-8caa-8a04f14a24a4)
 
 #### 5. Create shareable links for each image
 
 Each image has a link image. We can copy the shareable link by clicking the link image.
 
+![5](https://github.com/voiciJules/space_stagram/assets/80487550/6fea0e48-a3f4-4f70-a4a1-2c8b3653cc44)
+
 #### 6. Add a date-picker to be able to browse photos starting from a specific date
 
 With start date and end date information, we can search the photos from the start date to the end date.
+(This demo is included to the number 4)
 
 #### 7. Add a fabicon image to the title for spaceStagram & Responsive website & random button
 
 To make it a little bit prettier, I add spaceship image for the title of web browser and this application is a responsive website. I made a random button to go to the initial state(showing ramdom 5 images)
+
+![7](https://github.com/voiciJules/space_stagram/assets/80487550/e3d93ddf-eac2-41af-92e8-13e2e715c0cf)
