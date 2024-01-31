@@ -104,6 +104,8 @@ describe
 
 ###### Make this application available when accessing the website through a browser
 
+- https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
 - git에 홈페이지처럼 올리는 법 1(deploy)
 
   - npm i gh-pages 실행
@@ -374,8 +376,8 @@ const linkHandler = (e) => {
 - ~~Save likes by using 'localStorage' when the user leaves or reloads the page~~ => Done
 - ~~Add a start date-picker and an end date-picker to be able to browse photos between 2 dates.~~ => Done
 - ~~Add a loading state while we wait for NASA’s API to return data~~ => Done => <span style="color: blue">Make it prettier</span>
-- ~~Make responsive website~~
-- ~~When image is 'video', it's not showing in the image html. Fix this problem(2019-10-21 or 2024-01-06)~~
-- Make it available on the web
+- ~~Make responsive website~~ => Done
+- ~~When image is 'video', it's not showing in the image html. Fix this problem(2019-10-21 or 2024-01-06)~~ => Done
+- ~~Make it available on the web~~ => Done
 - Make test
 - Make `README.md` with demo(including GIF files)

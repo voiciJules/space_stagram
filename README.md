@@ -42,6 +42,7 @@ Below are gif demos of my project to show the above technical requirements.
 #### 1. Initial State
 
 When I first access to this website, it shows 5 random space's images. Here is what I used query parameter `count=5`. Each image result lists a title, date of capture and a button to “like” that image. Each image can be “liked”, and a user is able to undo their “like”
+![1](https://github.com/voiciJules/space_stagram/assets/80487550/dd92eccd-cf92-4662-a103-3affc42f48ec)
 
 #### 2. Save likes if the user leaves or reloads the page
 
