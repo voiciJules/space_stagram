@@ -379,5 +379,6 @@ const linkHandler = (e) => {
 - ~~Make responsive website~~ => Done
 - ~~When image is 'video', it's not showing in the image html. Fix this problem(2019-10-21 or 2024-01-06)~~ => Done
 - ~~Make it available on the web~~ => Done
+- ~~Make `README.md` with demo(including GIF files)~~ => Done
 - Make test
-- Make `README.md` with demo(including GIF files)
+- Disassemble app.js according to components(such as title component, datePicker component etc...)

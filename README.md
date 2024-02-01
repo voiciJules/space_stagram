@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hello! Here is documentation for my project 'spaceStagram' in the field of frontend. You can visit the web site in the browser by the address(https://voicihojun.github.io/spacestagram).
+Hello! Here is documentation for my project 'spaceStagram' in the field of frontend. You can visit the web site in the browser by the address(https://voicijules.github.io/space_stagram).
 
 ## Description
 
@@ -42,12 +42,12 @@ Below are gif demos of my project to show the above technical requirements.
 #### 1. Initial State
 
 When I first access to this website, it shows 5 random space's images. Here is what I used query parameter `count=5`. Each image result lists a title, date of capture and a button to “like” that image. Each image can be “liked”, and a user is able to undo their “like”
-![1](https://github.com/voiciJules/space_stagram/assets/80487550/a17756ca-69b3-48af-a437-7095ce2c4ced)
+![gif_1](https://github.com/voiciJules/space_stagram/assets/80487550/b09ef82b-5001-49c4-b852-6fe6ec4a5dd5)
 
 #### 2. Save likes if the user leaves or reloads the page
 
 By using localstorage of browser, I saved likes when the user leaves or reloads the page
-![2](https://github.com/voiciJules/space_stagram/assets/80487550/c2b40a81-da85-4948-8204-8d590d03fc2b)
+![gif_2_3](https://github.com/voiciJules/space_stagram/assets/80487550/9dd5db70-a23d-412c-931c-318257b972ef)
 
 #### 3. Animate the “like” action
 
@@ -56,13 +56,13 @@ By using CSS, I made a like action which The heart shape increases and returns t
 
 #### 4. Add a loading state while we wait for NASA’s API to return data
 
-![4](https://github.com/voiciJules/space_stagram/assets/80487550/e12ae063-ad23-4972-8caa-8a04f14a24a4)
+![gif_4_6](https://github.com/voiciJules/space_stagram/assets/80487550/038c7d77-09ea-4af3-86e8-ea2decf3e4bc)
 
 #### 5. Create shareable links for each image
 
 Each image has a link image. We can copy the shareable link by clicking the link image.
 
-![5](https://github.com/voiciJules/space_stagram/assets/80487550/6fea0e48-a3f4-4f70-a4a1-2c8b3653cc44)
+![gif_5](https://github.com/voiciJules/space_stagram/assets/80487550/d69e8e56-e3df-4fee-b5c7-0fa633653596)
 
 #### 6. Add a date-picker to be able to browse photos starting from a specific date
 
@@ -73,4 +73,4 @@ With start date and end date information, we can search the photos from the star
 
 To make it a little bit prettier, I add spaceship image for the title of web browser and this application is a responsive website. I made a random button to go to the initial state(showing ramdom 5 images)
 
-![7](https://github.com/voiciJules/space_stagram/assets/80487550/e3d93ddf-eac2-41af-92e8-13e2e715c0cf)
+![gif_7](https://github.com/voiciJules/space_stagram/assets/80487550/f2f785d2-6a61-46be-9a15-60dc1bc02169)
