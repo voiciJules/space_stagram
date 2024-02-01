@@ -101,6 +101,9 @@ describe
 ###### How to use GIF files in markdown file
 
 - https://a-curious.tistory.com/157
+  - by using this command, we can change mov file to gif file.
+  - `brew install ffmpeg`
+  - `ffmpeg -i gif_7.mov -pix_fmt rgb8 -r 25 -filter:v "setpts=0.25*PTS" -f gif gif_7.gif`
 
 ###### Make this application available when accessing the website through a browser
 
